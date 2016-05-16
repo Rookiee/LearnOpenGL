@@ -80,7 +80,7 @@ int main(int argc, char *argv[])
 		as soon as glClear or glClearbuffer is called, it use the value to reset its color value */
 		//glClearColor(0.2f, 0.3f, 0.3f, 1.0f);
 		GLfloat resetColor[] = { 0.2f, 0.2f, 0.3f, 1.0f };
-		glClear(GL_COLOR_BUFFER_BIT, resetColor);
+		glClear(GL_COLOR_BUFFER_BIT, resetColor); // ERROR, NO OVERLOADED FUNCTION LIKE THIS;
 		//glClear(GL_COLOR_BUFFER_BIT);
 		// glClearColor is a state-setting function, and glClear is a state-using function.
 
