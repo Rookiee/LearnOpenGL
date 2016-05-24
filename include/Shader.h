@@ -9,11 +9,14 @@
 /* Include glew to get all of the required OpenGL headers */
 #include <GL/glew.h>
 
+/* define global variable(s)*/
+static const unsigned int LOGLEN = 512;
+
 class Shader{
 public:
 	/* Program ID */
 	GLuint Program;
-	/* Consturctor --- read and build the shader */
+	/* Constructor --- read and build the shader */
 	Shader(const GLchar* vertexPath, const GLchar* fragmentPath);
 	/* Use the program */
 	void Use();
@@ -95,3 +98,5 @@ Shader::Shader(const GLchar* vertexPath, const GLchar* fragmentPath){
 void Shader::Use(){
 	glUseProgram(this->Program);
 }
+
+#endif
