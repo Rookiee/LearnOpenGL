@@ -120,12 +120,14 @@ int main(int argc, char *argv[])
 	const GLfloat vertices[] = {
 		-0.5f, -0.5f, 0.f,
 		0.5f, -0.5f, 0.0f,
-		0.0f, 0.5f, 0.f
+		0.0f, 0.5f, 0.f,
+		-0.5f, -0.5f, 0.f,
 	};
 
 	/* --------------------------------VBO, VAO---------------------------------*/
 	GLuint VBO, VAO;
-	glGenBuffers(1, &VBO);
+	//glGenBuffers(1, &VBO);
+	glCreateBuffers(1, &VBO);
 	glGenVertexArrays(1, &VAO);
 	
 
@@ -161,7 +163,8 @@ int main(int argc, char *argv[])
 		/* Draw triangle */
 		glUseProgram(shaderProgram);
 		glBindVertexArray(VAO);
-		glDrawArrays(GL_TRIANGLES, 0, 3);
+		//glDrawArrays(GL_TRIANGLES, 0, 3);
+		glDrawArrays(GL_LINE_STRIP, 0, 4);
 		glBindVertexArray(0);
 
 

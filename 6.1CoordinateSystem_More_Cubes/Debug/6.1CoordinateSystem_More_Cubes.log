@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/6/4 9:15:50。
+     1>项目“D:\GitHub\LearnOpenGL\6.1CoordinateSystem_More_Cubes\6.1CoordinateSystem_More_Cubes.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I. /IC:\Qt\5.5\msvc2013\include /I.\GeneratedFiles\Debug /IC:\Qt\5.5\msvc2013\include\QtCore /IC:\Qt\5.5\msvc2013\include\QtOpenGL /I"D:\Libraries\eigen-eigen-3.2.8" /ID:\Libraries\OpenGL\glut\include /ID:\Libraries\OpenGL\soil\include /I"D:\Libraries\OpenGL\glew-1.13.0\include" /I"D:\Libraries\OpenGL\glfw-3.1.2.bin.WIN32\include" /I"D:\Libraries\OpenGL\glm-0.9.7.4" /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_OPENGL_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\\6.1CoordinateSystem_More_Cubes.exe" /NOLOGO /LIBPATH:C:\Qt\5.5\msvc2013\lib /LIBPATH:D:\Libraries\OpenGL\glut\lib /LIBPATH:"D:\Libraries\OpenGL\soil\lib-vs2013\debug" /LIBPATH:"D:\Libraries\OpenGL\glew-1.13.0\lib\Release\Win32" /LIBPATH:"D:\Libraries\OpenGL\glfw-3.1.2.bin.WIN32\lib-vc2013" qtmaind.lib Qt5Cored.lib Qt5OpenGLd.lib opengl32.lib glu32.lib glew32s.lib glfw3_d.lib SOIL_d.lib glut32.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\6.1CoordinateSystem_More_Cubes.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\6.1CoordinateSystem_More_Cubes.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+     1>SOIL_d.lib(SOIL.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+     1>LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+     1>glew32s.lib(glew.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“glew32s.lib(glew.obj)”或在“D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL_d.lib(image_DXT.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL_d.lib(image_DXT.obj)”或在“D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL_d.lib(image_helper.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL_d.lib(image_helper.obj)”或在“D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL_d.lib(SOIL.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL_d.lib(SOIL.obj)”或在“D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>SOIL_d.lib(stb_image_aug.obj) : warning LNK4099: 未找到 PDB“vc120.pdb”(使用“SOIL_d.lib(stb_image_aug.obj)”或在“D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\vc120.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         6.1CoordinateSystem_More_Cubes.vcxproj -> D:\GitHub\LearnOpenGL\1.HelloWindow\Win32\Debug\6.1CoordinateSystem_More_Cubes.exe
+     1>已完成生成项目“D:\GitHub\LearnOpenGL\6.1CoordinateSystem_More_Cubes\6.1CoordinateSystem_More_Cubes.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.42
